@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css?family=Space Grotesk');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(21, 21, 21, 1);
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Space Grotesk';
+}
+
+html, body {
+    height: 100%;
+    
+}
+
+
+
+header{
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.adamkeyes{
+display: flex;
+padding:  10px;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.adamkeyes h1 {
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.3333333432674408px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+.icon{
+    width: 153.99px;
+height: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.profile {
+    width: 174.21px;
+height: 288px;
+background: linear-gradient(180deg, rgba(36, 36, 36, 0.0001) 0.65%, #242424 100%);
+
+}
+
+
+.nicemeet{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+ h1 {
+font-size: 40px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -1.1363636255264282px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+
+p {
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+color: rgba(217, 217, 217, 1);
+
+}
+
+
+.contacttext{
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 2.1px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+}
+
+
+.lineadam{
+    text-decoration: underline;
+    text-decoration-color: rgba(78, 225, 160, 1);
+}
+
+
+.line2 {
+    width: 116px;
+    height: 2px;
+    background: rgba(78, 225, 160, 1);
+    margin-top: 5px;
+}
+
+.line3{
+    width: 343px;
+height: 1px;
+background: rgba(255, 255, 255, 1);
+}
+
+
+.programlanguage{
+display: flex;
+flex-direction: column;
+gap: 24px;
+padding: 40px 0px;
+
+}
+
+.experience{
+    width: 345px;
+    height: 67px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+.experience h1 {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.experience p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(217, 217, 217, 1);
+}
+
+
+.project{
+    width: 343px;
+height: 40px;
+    display: flex;
+flex-direction: row;
+    align-items: center;
+justify-content: space-between;
+padding-top: 80px;
+padding-left: 10px;
+}
+
+.imageparagraph{
+    padding-top: 46px;
+    width: 343px;
+height: 398px;
+
+}
+
+.imageparagraph h1 {
+font-size: 24px;
+text-align: left;
+padding-top: 10px;
+}
+
+.imageparagraph p {
+font-size: 18px;
+text-align: left;
+}
+
+.HTMLCSS{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.image {
+    width: 345px;
+height: 253px;
+}
+
+.linemany{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.photolines{
+    border-bottom: 2px solid rgba(78, 225, 160, 1);
+    padding-bottom: 10px;
+}
+
+
+.lastpage1{
+    padding-top: 80px;
+}
+
+.lastpage{
+background: rgba(36, 36, 36, 1);
+padding-top: 60px;
+
+
+}
+
+.contact2{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+.lastpage p {
+    font-size: 16px;
+}
+
+
+.namemessage{
+    width: 343px;
+    height: 327px;
+     padding-left: 16px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+}
+
+.nameline{
+    width: 343px;
+height: 1px;
+background: rgba(255, 255, 255, 1);
+}
+
+
+.contacttext2{
+    padding-left: 199px;
+}
+
+
+
+
+.lastpage5 {
+    width: 375px;
+
+    background: rgba(36, 36, 36, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  gap: 30px;
+  padding-bottom: 60px;
+}
+
+
+@media (min-width: 768px){
+
+    .tabletandmobile{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .adamkeyes{
+        width: 708.49px;
+flex-direction: row;
+justify-content: space-between;
+padding-right: 60px;
+
+}
+
+ h1 {
+font-size: 72px;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: -2.045454502105713px;
+text-align: left;
+
+ }
+
+header{
+    align-items: flex-end;
+    width: 322px;
+    height: 600px;
+
+    
+}
+
+.nicemeet {
+    width: 445px;
+    padding: 90px 20px;
+align-items: first baseline ;
+gap: 82px;
+padding-left: 80px;
+}
+
+.nicemeet p {
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+
+}
+
+
+.profile {
+    width: 322px;
+    height: 486px;
+    padding-top: 54px;
+    
+}
+
+.line3 {
+    width: 760px;
+    margin-left: 60px;
+}
+
+.lineoff {
+    width: 0px;
+}
+
+.programlanguage {
+    width: 708px;
+display: grid;
+grid-template-columns: auto auto;
+
+}
+
+.experience {
+height: 98px;
+align-items: first baseline;
+}
+    .project {
+        width: 706px;
+height: 72px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+.imagegrid{
+    width: 708px;
+height: 1314px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.linemany {
+    width: 271px;
+height: 38px;
+}
+
+.contact2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+.texttablet  {
+    padding: 0px 185px;
+}
+
+.tabletline{
+    margin-top: 50px;
+}
+
+.tabletline2{
+    width: 706px;
+
+}
+
+.lastpage5{
+    width: 768px;
+
+}
+.lastpage1{
+    width: 1093px;
+}
+
+.tabletadamikeys{
+    margin-left: 50px;
+}
+
+.conteinerdesktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+    } 
+
+    @media (min-width: 1024px) {
+        .lastpage5 {
+            width: 1020px;
+        }
+    }
+
+
+    @media (min-width: 1440px) {
+
+ 
+        body{
+            padding: 0px auto;
+            background-image: url(starter-code/assets/images/pattern-rings.svg);
+            background-repeat: no-repeat;
+            background-position: -100px 250px;
+        }
+        .tabletandmobile{
+            height: 820px;
+            width: 1100px;
+            background-image: url(starter-code/assets/images/pattern-circle.svg);
+            background-repeat: no-repeat;
+background-position:center;
+background-position: 600px 600px;
+        }
+header{
+    width: 445px;
+height: 720px;
+
+}
+.adamkeyes{
+    width: 1000px;
+    padding-top: 50px;
+}
+.adamkeyes h1 {
+    padding-top: 50px;
+}
+.profile {
+    width: 444.88px;
+    height: 618px;
+}
+
+.nicemeet {
+    width: 550px;
+    padding: 300px 70px 90px 1px;
+    gap: 43px;
+}
+
+h1 {
+    width: 709px;
+height: 88px;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    
+}
+.nicemeet p {
+    padding-top: 86px;
+}
+
+   .line3 {
+    width: 1110px;
+height: 1px;
+   } 
+
+.programlanguage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-right: 300px;
+    background-image: url(starter-code/assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position: 900px 200px;
+}
+
+.programlanguage h1 {
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: -1.5px;
+text-align: left;
+
+}
+
+.programlanguage p {
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+
+}
+
+.lineoff {
+    height: 0px;
+}
+
+.project {
+    width: 1110px;
+height: 1767px;
+
+}
+
+.imagegrid {
+    width: 1110px;
+height: 1767px;
+gap: 30px;
+}
+.imageparagraph {
+    width: 540px;
+    height: 500px;
+}
+
+.image {
+    width: 545.81px;
+height: 400px;
+
+}
+
+.linemany {
+     visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.lastpage {
+    width: 1440px;
+height: 475px;
+background-image: url(starter-code/assets/images/pattern-rings.svg);
+background-repeat: no-repeat;
+background-position: -150px 400px;
+}
+
+.contact2 {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+
+
+.conteinerdesktop {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 36px;
+}
+
+.conteinerdesktop h1 {
+    width: 330px;
+height: 88px;
+
+}
+.texttablet{
+    width: 445px;
+    height: 84px;
+    padding: 0;
+
+}
+
+
+
+    }
+    }
+    
+
+
+
+
